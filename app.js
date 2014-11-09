@@ -1,4 +1,4 @@
-var Calendar = require('./components/Calendar');
+var Calendar = require('./components/calendar');
 // var ChatExampleData = require('./ChatExampleData');
 // var ChatWebAPIUtils = require('./utils/ChatWebAPIUtils');
 var React = require('react');
