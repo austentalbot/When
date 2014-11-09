@@ -1,16 +1,7 @@
 var Calendar = require('./components/calendar');
-// var ChatExampleData = require('./ChatExampleData');
-// var ChatWebAPIUtils = require('./utils/ChatWebAPIUtils');
 var React = require('react');
-window.React = React; // export for http://fb.me/react-devtools
+window.React = React;
 
-// ChatExampleData.init(); // load example data into localstorage
-
-// ChatWebAPIUtils.getAllMessages();
-
-// React.render(
-//   <ChatApp />,
-//   document.getElementById('react')
-// );
-
-React.render(Calendar({}), document.getElementById('react'));
+React.render(React.createElement('div', {
+    children: [Calendar({}), Calendar({})]
+  }), document.getElementById('react'));
