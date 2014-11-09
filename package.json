@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/austentalbot/When",
   "dependencies": {
+    "browserify": "^6.2.0",
     "flux": "^2.0.1",
     "react": "^0.12.0"
   }
